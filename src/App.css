@@ -1,0 +1,39 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00002e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-menu {
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  background-color: rgb(200, 75, 75);
+  outline: none;
+  color: rgb(58, 22, 22);
+}
+
+button:hover {
+  background-color: rgb(61, 157, 246);
+  color: rgb(31, 62, 88);
+}
+
+@media (min-width: 768px) {
+  .App-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
