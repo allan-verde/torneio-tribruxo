@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Link deploy Vercel](https://react-entrega-s1-preparativos-para-o-torneio-tribru-allan-verde.vercel.app).
+
 ## Available Scripts
 
 In the project directory, you can run:
